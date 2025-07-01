@@ -10,6 +10,6 @@ This project analyzes the [OSMI Mental Health in Tech Survey](https://www.kaggle
     - Gender, family history, remote work, care options, leave policy, etc.
 - Computed a correlation matrix after label encoding all categorical features
 
-![KeyVisual1](image.png)
-![KeyVisual2](image-1.png)
+![KeyVisual1](images/image.png)
+![KeyVisual2](images/image-1.png)
 
