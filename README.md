@@ -29,9 +29,5 @@ Accuracy Score, Cross-Validation, Confusion Matrix, Classification Report, ROC C
 
 Findings:
 
-RandomForestClassifier had the highest accuracy and performed best in the confusion matrix.
-LogisticRegression achieved a slightly better ROC AUC score, suggesting it was more balanced across thresholds.
+LogisticRegression achieved a slightly better ROC AUC score, suggesting it was more balanced across thresholds, however since RandomForestClassifier showed higher accuracy during real life thresholds, we chose RandomForestClassifier to use in our app.
 
-Final Model:
-Chose RandomForestClassifier for deployment, as it showed stronger performance on real decision thresholds.
-Trained on the full dataset and exported using pickle.
