@@ -31,3 +31,12 @@ Findings:
 
 LogisticRegression achieved a slightly better ROC AUC score, suggesting it was more balanced across thresholds, however since RandomForestClassifier showed higher accuracy during real life thresholds, we chose RandomForestClassifier to use in our app.
 
+## 🌐 Gradio Web App
+To demonstrate the model’s predictions interactively, we built a Gradio web interface where users can input workplace and personal attributes and receive a prediction on whether they are likely to seek mental health treatment.
+
+-   App Features:
+    - Accepts 22 inputs based on the OSMI survey questions (age, gender, company size, benefits, etc.)
+    - Preprocesses inputs using the saved ColumnTransformer
+    - Predicts treatment-seeking behavior using the trained RandomForestClassifier
+
+![KeyVisual5](images/image5.png)
